@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import AddAlertIcon from '@mui/icons-material/AddAlert';
-import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
-import AddLocationIcon from '@mui/icons-material/AddLocation';
-import AirplanemodeActiveIcon from '@mui/icons-material/AirplanemodeActive';
+// import AddAlertIcon from '@mui/icons-material/AddAlert';
+// import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
+// import AddLocationIcon from '@mui/icons-material/AddLocation';
+// import AirplanemodeActiveIcon from '@mui/icons-material/AirplanemodeActive';
 
 
 function AboutUs() {
@@ -12,7 +12,7 @@ function AboutUs() {
     <div class="bg-gray-100 h-auto font-sans">
 
 {/* // <!-- Navigation Bar --> */}
-<nav class="bg-gradient-to-r from-yellow-300  to-yellow-200 p-4">
+<nav class=" p-4">
     <div class="container mx-auto flex justify-between items-center">
         <a href="#" class="bg-gradient-to-r from-yellow-200  to-yellow-500 rounded-xl p-1 text-3xl  font-semibold">MediaMingle</a>
         <div class="flex space-x-4">
@@ -37,13 +37,14 @@ Discover new horizons as you navigate through our user-friendly interface, findi
 
 Join us on Media Mingle, where every connection is an opportunity to enrich your digital experience and form lasting bonds. Let's create, converse, and connect – because in our world, every interaction matters.</p>
 </section>
-<section className='flex justify-center w-1/2'>
-<div><AddAlertIcon class="text-xl"/>
-<AccessibilityNewIcon class="text-xl"/>
-</div>
+<section className=' px-4 py-2 w-1/2'>
+<div className='text-9xl'>
+{/* <AddAlertIcon className='text-9xl'/> <AccessibilityNewIcon className='text-9xl'/> */}
+</div> 
 <div>
-<AddLocationIcon />
-<AirplanemodeActiveIcon/>
+
+{/* <AddLocationIcon/> */}
+{/* <AirplanemodeActiveIcon/> */}
 
 </div>
 
@@ -52,7 +53,7 @@ Join us on Media Mingle, where every connection is an opportunity to enrich your
 </div>
 
 {/* <!-- Footer --> */}
-<footer class="bg-yellow-400 p-4 mt-">
+<footer class="p-4 mt-">
     <p class=" text-center">© 2024 MediaMingle. All rights reserved.</p>
 </footer>
 

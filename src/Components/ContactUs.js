@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function ContactUs() {
   return (
     <div className=' h-screen '>
-    <nav class="bg-gradient-to-r from-yellow-300  to-yellow-200 p-4">
+    <nav class=" p-4">
     <div class="container mx-auto flex justify-between items-center">
         <a href="#" class="bg-gradient-to-r from-yellow-200  to-yellow-500 rounded-xl p-1 text-3xl  font-semibold">MediaMingle</a>
         <div class="flex space-x-4">
@@ -85,7 +85,7 @@ function ContactUs() {
       </form>
        </div>
        
-       <footer class="bg-yellow-300  p-4 mt-36">
+       <footer class="  p-4 mt-36">
     <p class=" text-center">© 2024 MediaMingle. All rights reserved.</p>
 </footer>
        </div>
